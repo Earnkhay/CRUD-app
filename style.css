@@ -1,0 +1,239 @@
+body{
+    background-color: aliceblue;
+}
+
+.nk {
+    max-width: 100%;
+    height: 100%;
+}
+
+.home{
+
+    padding-top: 95px;
+
+}
+
+.ptn{
+    margin-bottom: 10px;
+    margin-left: 18px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.menu{
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: black;
+    z-index: 1;
+    padding: 25px;
+}
+
+.nav-link{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about{
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+#partner-list{
+    margin-bottom: 30px;
+}
+
+#partner-list h1{
+    margin-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.portrait img{
+    max-width: 20%;
+    height: 50%;
+    border-radius:50%;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+    padding-top: 40px;
+}
+
+.aboutlogo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.abt-text{
+    width: 40%;
+    text-align: justify;
+}
+
+.img-text img{
+    max-width: 100%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+}
+
+.abtme{
+    width: 40%;
+    text-align: justify;
+}
+
+.partner{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    background-color: white;
+    padding: 2px 20px;
+    cursor: pointer;;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.partner p{
+    margin-top: 10px;
+}
+
+i{
+    margin-top: 15px;
+}
+
+.ptncontent{
+    display: none;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 25px;
+}
+
+form{
+    display: block;
+    background: aliceblue;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
+
+.modal-header h5{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+.comment label{
+    display: flex;
+
+}
+
+#checkbox label{
+    display: block;
+}
+
+#radio label{
+    display: block;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+}
+
+#submit{
+    background-color: skyblue;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 0.25rem;
+}
+
+#comments {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+#dropdown{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.buttons{
+    margin-left: 5px;
+    
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
+
+.partner-list-empty{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.pennee img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+    .portrait img{
+        max-width: 40%;
+        height: 100%;
+        border-radius:50%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-top: 120px;
+        padding-top: 40px;
+    }
+
+    .nk img{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1100px) {
+    .portrait img{
+        max-width: 30%;
+        height: 100%;
+        border-radius:50%;
+        margin-left: 120px;
+        margin-bottom: 20px;
+        margin-top: 120px;
+        padding-top: 40px;
+    }
+}

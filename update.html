@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/ab840a06f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="menu">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Partner Type</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Partner List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#updates">Updates</a>
+            </li>
+          </ul>
+    </div>
+
+    <div class="portrait" id="updates">
+        <img src="./images/20211014_115421.jpg" alt="">
+      </div>
+  
+      <div class="aboutlogo">
+        <div class="abt-text">
+          <p>Nkechi works at Pennee as a junior operations associate. She is in charge of onboarding partners to help pennee provide asset loans for small businesses.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Sign up
+        </button>  
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+        <div class="modal-header">
+             <h5 class="modal-title" id="staticBackdropLabel">Hello Mogul</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div> 
+         <div class="modal-body">
+          <form action="" id="survey-form">
+          <div class="business">
+            <div>
+                <b><label for="name" id="name-label">Business Name</label></b><br>
+                <input type="text" id="name" placeholder="Enter your name" class="form-input" required>
+            </div><br>
+
+            <div>
+                <b><label for="email" id="email-label">Business Email</label><br></b>
+                <input type="email" id="email" placeholder="Enter your email"class="form-input" required>
+            </div><br>
+
+            <div>
+                <b><label for="number" id="number-label">Business Age</label><br></b>
+                <input type="number" id="number" placeholder="Age" name="age" min="1" max="10" class="form-input">
+            </div><br>
+          </div>
+
+            <div>
+                <b><p>Which option best describes your business?</p></b>
+                <select name="role" id="dropdown" class="form-input">
+                    <b><option disabled selected value="">Select business type</option></b>
+                    <option value="Packaging">Packaging</option>
+                    <option value="Branding">Branding</option>
+                    <option value="FMCG">FMCG</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="other">Other</option>
+                </select>
+            </div><br>
+
+            
+                <b><p>Would you recommend Pennee to your customers?</p></b>
+                <div  id="radio">
+                <label for="">
+                    <input type="radio" value="Definitely" name="recommend" checked>
+                    Definitely
+                </label>
+
+                <label for="">
+                    <input type="radio" value="Maybe" name="recommend">
+                    Maybe
+                </label>
+
+                <label for="">
+                    <input type="radio" value="not-sure" name="recommend">
+                    Not sure
+                </label>
+            </div><br>
+
+            
+                <b><p>What would you like to see improved?</p></b>
+                <div id="checkbox">
+                <label for="">
+                    <input type="checkbox" value="Customer Service" name="improve">
+                    Customer Service
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="App Features" name="improve">
+                    App Features
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="Dashboard Features" name="improve">
+                    Dashboard Features
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="Withdrawal time" name="improve">
+                    Withdrawal time
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="Partner Referral System" name="improve">
+                    Partner Referral System
+                </label>
+
+                <label for="">
+                    <input type="checkbox" value="Others" name="improve">
+                    Others
+                </label>
+            </div><br>
+
+            <div class="comment">
+                <b><p>Any comments or suggestions?</p></b>
+                <label for="comments">
+                    <textarea name="comment" id="comments" cols="30" rows="10"
+                    placeholder="Enter your comments here...." class="form-input"></textarea>
+                </label>
+            </div><br>
+
+          <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+          </form>
+         </div>     
+     </div>
+   </div>
+    </div>
+        </div>
+        <div class="img-text">
+          <img src="./images/image.png" alt="">
+        </div>
+      </div>
+  
+      <div class="partner">
+        <p>PARTNERS</p>
+        <i class="fas fa-angle-down"></i>
+      </div>
+  
+      <div class="ptncontent">
+        <strong>Inventory Partners</strong> are partners that deal in consumable goods. They sell fast moving consumable goods. <span class="badge rounded-pill bg-primary">Inventory</span>
+        <br>
+        <strong>Asset Partners</strong> are partners that sell equipments and goods that improve productivity of the merchant overtime. <span class="badge rounded-pill bg-success">Asset</span>
+      </div>
+
+      <div class="partner-list-empty">
+        <p>Congrats!!! you're a step away from being our first partner. Click here to <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><b>Sign Up</b></a></p>
+      </div>
+
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+   <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Hello Mogul</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div> 
+    <div class="modal-body">
+     <form action="" id="survey-form">
+     <div class="business">
+       <div>
+           <b><label for="name" id="name-label">Business Name</label></b><br>
+           <input type="text" id="name" placeholder="Enter your name" class="form-input" required>
+       </div><br>
+
+       <div>
+           <b><label for="email" id="email-label">Business Email</label><br></b>
+           <input type="email" id="email" placeholder="Enter your email"class="form-input" required>
+       </div><br>
+
+       <div>
+           <b><label for="number" id="number-label">Business Age</label><br></b>
+           <input type="number" id="number" placeholder="Age" name="age" min="1" max="10" class="form-input">
+       </div><br>
+     </div>
+
+       <div>
+           <b><p>Which option best describes your business?</p></b>
+           <select name="role" id="dropdown" class="form-input">
+               <b><option disabled selected value="">Select business type</option></b>
+               <option value="Packaging">Packaging</option>
+               <option value="Branding">Branding</option>
+               <option value="FMCG">FMCG</option>
+               <option value="Fashion">Fashion</option>
+               <option value="other">Other</option>
+           </select>
+       </div><br>
+
+       
+           <b><p>Would you recommend Pennee to your customers?</p></b>
+           <div  id="radio">
+           <label for="">
+               <input type="radio" value="Definitely" name="recommend" checked>
+               Definitely
+           </label>
+
+           <label for="">
+               <input type="radio" value="Maybe" name="recommend">
+               Maybe
+           </label>
+
+           <label for="">
+               <input type="radio" value="not-sure" name="recommend">
+               Not sure
+           </label>
+       </div><br>
+
+       
+           <b><p>What would you like to see improved?</p></b>
+           <div id="checkbox">
+           <label for="">
+               <input type="checkbox" value="Customer Service" name="improve">
+               Customer Service
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="App Features" name="improve">
+               App Features
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Dashboard Features" name="improve">
+               Dashboard Features
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Withdrawal time" name="improve">
+               Withdrawal time
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Partner Referral System" name="improve">
+               Partner Referral System
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Others" name="improve">
+               Others
+           </label>
+       </div><br>
+
+       <div class="comment">
+           <b><p>Any comments or suggestions?</p></b>
+           <label for="comments">
+               <textarea name="comment" id="comments" cols="30" rows="10"
+               placeholder="Enter your comments here...." class="form-input"></textarea>
+           </label>
+       </div><br>
+
+     <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           <button type="submit" class="btn btn-primary">Submit</button>
+             </div>
+     </form>
+    </div>     
+    </div>
+    </div>
+    </div>
+      </div>
+
+      <div id="partner-list">
+        <h1>PARTNER LIST</h1>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Business Name</th>
+              <th scope="col">Business Email</th>
+              <th scope="col">Business Age</th>
+              <th scope="col">Business Type</th>
+              <th scope="col">Recommendation</th>
+              <th scope="col">Improvement</th>
+              <th scope="col">Comments</th>
+              <th scope="col" colspan="3">Actions</th>
+            </tr>
+            
+            
+          </thead>
+          <tbody id="table-data">
+              
+          </tbody>
+      </table>
+      <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+   <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Edit Profile</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div> 
+    <div class="modal-body">
+     <form action="" id="edit-form">
+     <div class="business">
+       <div>
+           <b><label for="name" id="name-label">Edit Business Name</label></b><br>
+           <input type="text" id="editName" placeholder="Enter your name" class="form-input">
+       </div><br>
+
+       <div>
+           <b><label for="email" id="email-label">Edit Business Email</label><br></b>
+           <input type="email" id="editEmail" placeholder="Enter your email"class="form-input">
+       </div><br>
+
+       <div>
+           <b><label for="number" id="number-label">Edit Business Age</label><br></b>
+           <input type="number" id="editNumber" placeholder="Age" name="age" min="1" max="10" class="form-input">
+       </div><br>
+     </div>
+
+       <div>
+           <b><p>Which option best describes your business?</p></b>
+           <select name="role" id="editDropdown" class="form-input">
+               <b><option disabled selected value="">Select business type</option></b>
+               <option value="Packaging">Packaging</option>
+               <option value="Branding">Branding</option>
+               <option value="FMCG">FMCG</option>
+               <option value="Fashion">Fashion</option>
+               <option value="other">Other</option>
+           </select>
+       </div><br>
+
+       
+           <b><p>Would you recommend Pennee to your customers?</p></b>
+           <div  id="radio">
+           <label for="">
+               <input type="radio" value="Definitely" name="editRecommend" class="editRadio">
+               Definitely
+           </label>
+
+           <label for="">
+               <input type="radio" value="Maybe" name="editRecommend" class="editRadio">
+               Maybe
+           </label>
+
+           <label for="">
+               <input type="radio" value="not-sure" name="editRecommend" class="editRadio">
+               Not sure
+           </label>
+       </div><br>
+
+       
+           <b><p>What would you like to see improved?</p></b>
+           <div id="checkbox">
+           <label for="">
+               <input type="checkbox" value="Customer Service" name="editImprove">
+               Customer Service
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="App Features" name="editImprove">
+               App Features
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Dashboard Features" name="editImprove">
+               Dashboard Features
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Withdrawal time" name="editImprove">
+               Withdrawal time
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Partner Referral System" name="editImprove">
+               Partner Referral System
+           </label>
+
+           <label for="">
+               <input type="checkbox" value="Others" name="editImprove">
+               Others
+           </label>
+       </div><br>
+
+       <div class="comment">
+           <b><p>Edit comments</p></b>
+           <label for="comments">
+               <textarea name="comment" id="editComments" cols="30" rows="10"
+               placeholder="Enter your comments here...." class="form-input"></textarea>
+           </label>
+       </div><br>
+
+     <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           <button type="submit" class="btn btn-primary">Update</button>
+             </div>
+     </form>
+    </div>     
+    </div>
+    </div>
+    </div>
+      </div>
+
+      <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+   <div class="modal-content">
+   <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div> 
+   <div class="container">
+    <div class="modal-body row ">
+      <div class="col-4 pennee">
+        <img src="./images/istockphoto-1225051355-170667a.jpg" alt="">
+      </div>
+      <div class="row col-8">
+        <div class="row">
+        <div class="col">
+        <h5>Business Name</h5>
+        <p id="viewName"></p><br>
+        </div>
+        <div class="col">
+        <h5>Business Email</h5>
+        <p id="viewEmail"></p><br>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col">
+        <h5>Business Age</h5>
+        <p id="viewNumber"></p><br>
+        </div>
+        <div class="col">
+        <h5>Business Type</h5>
+        <p id="viewType"></p><br>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col">
+        <h5>Recommendation</h5>
+        <p id="viewRecommendation"></p><br>
+        </div>
+        <div class="col">
+        <h5>Improvement</h5>
+        <p id="viewImprovement"></p><br>
+        </div>
+        </div>
+        <div class="col">
+        <h5>Comments</h5>
+        <p id="viewComments"></p>
+      </div>
+     </div>
+    </div>     
+  </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+    </div>
+
+      <footer>
+        <div class="abtme">
+          <p>Nkechi works at Pennee as a junior operations associate. She is in charge of onboarding partners to help pennee provide asset loans for small businesses.</p>
+        </div>
+  
+        <div class="flinks">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#partner-type">Partner Type</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#partner-list">Partner List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#updates">Updates</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="contacts">
+          <p>Tokura street, Alagbado, Lagos.</p>
+          <p>08184275565</p>
+          <p>&copy copyright2022</p>
+        </div>
+      </footer>
+</body>
+<script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+<script src="./accordion.js"></script>
+<!-- <script src="./appclass.js"></script> -->
+<script src="./app.js"></script>
+</html>
