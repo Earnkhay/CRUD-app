@@ -209,12 +209,6 @@ textarea{
     margin-top: 80px;
 }
 
-.table{
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
 @media (min-width: 200px) and (max-width: 800px) {
     .portrait img{
         max-width: 40%;
