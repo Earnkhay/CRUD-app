@@ -209,8 +209,10 @@ textarea{
     margin-top: 80px;
 }
 
-table{
+.table{
+    display: block;
     overflow-x: auto;
+    white-space: nowrap;
 }
 
 @media (min-width: 200px) and (max-width: 800px) {
