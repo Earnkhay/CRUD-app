@@ -1,7 +1,7 @@
 var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 var alertTrigger = document.getElementById('liveAlertBtn')
 
-function alert(message, type) {
+function alertMessage(message, type) {
   var wrapper = document.createElement('div')
   wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
 
@@ -10,7 +10,7 @@ function alert(message, type) {
 
 if (alertTrigger) {
   alertTrigger.addEventListener('click', function () {
-    alert('Congratulations, you\'re a Partner', 'success')
+    alertMessage('Congratulations, you\'re a Partner', 'success')
   })
 }
 
@@ -221,7 +221,7 @@ function editAction(id) {
   })
   let editComments = document.querySelector("#editComments");
 
-  console.log( 'string', editRecommend, editImprovement, 'another string');
+  console.log( 'string', editRecommend, editImprovement, 'another string', id);
   
   editName.value = itemToBeEdited.businessName;
   editEmail.value = itemToBeEdited.businessEmail;
@@ -280,9 +280,6 @@ function jsConfirm(id) {
   if(confirm("Are you sure you want to delete?")){
     removeDataFromLocalStorage(id);
     console.log("delete");
-  }else{
-    
-    console.log("don't delete");
   }
 }
 

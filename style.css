@@ -214,6 +214,61 @@ textarea{
     overflow-x:auto;
 }
 
+#fetch {
+    text-align: center;
+}
+
+#api{
+    text-align: center;
+}
+#spinner{
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+} 
+
+#modalBtn{
+    display: none;
+}
+
+#errorModalBtn{
+    display: none;
+}
+
+.fetchModal{
+    background-color: rgb(31, 116, 31);
+}
+
+.errorModal{
+    background-color: red;
+}
+
+.errorModal p{
+    color: white;
+    text-align: center;
+}
+
+.errorModal button{
+    background-color: grey;
+}
+
+.fetchModal p{
+    color: white;
+    text-align: center;
+}
+
+.fetchModal button{
+    background-color: grey;
+}
+
+#gif{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 200px) and (max-width: 800px) {
     .portrait img{
         max-width: 40%;
