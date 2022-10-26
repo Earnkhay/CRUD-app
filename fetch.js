@@ -53,29 +53,29 @@ async function fetchApi(e){
     const error = true;
     console.log(response);
 
-    if (!error) {
-        const data = await response.json();
-        console.log(data);
+    // if (!error) {
+    //     const data = await response.json();
+    //     console.log(data);
 
-        // alert("Request completed successfully");
-        const modal =  document.getElementById('modalBtn');
-        modal.click();
+    //     // alert("Request completed successfully");
+    //     const modal =  document.getElementById('modalBtn');
+    //     modal.click();
 
-        let html = '';
+    //     let html = '';
 
-        data.forEach(post => {
-            html += `
-                <li>
-                    ${post.id} - ${post.title}
-                </li>
-            `;
-        });
-        document.getElementById('api').innerHTML = html;
-    } else {
-        // alert("Request could not be processed at the moment");
-        const errorModal =  document.getElementById('errorModalBtn');
-        errorModal.click();
-    }
+    //     data.forEach(post => {
+    //         html += `
+    //             <li>
+    //                 ${post.id} - ${post.title}
+    //             </li>
+    //         `;
+    //     });
+    //     document.getElementById('api').innerHTML = html;
+    // } else {
+    //     // alert("Request could not be processed at the moment");
+    //     const errorModal =  document.getElementById('errorModalBtn');
+    //     errorModal.click();
+    // }
 }
 
 
@@ -89,30 +89,30 @@ async function loadAPI2(e) {
     spinner.style.display = 'none';
    
 
-    if (response.status == 200) {
-        const data = await response.json();
-        console.log(data);
+    // if (response.status == 200) {
+    //     const data = await response.json();
+    //     console.log(data);
 
-        // alert("Request completed successfully");
-        const modal =  document.getElementById('modalBtn');
-        modal.click();
+    //     // alert("Request completed successfully");
+    //     const modal =  document.getElementById('modalBtn');
+    //     modal.click();
 
-        let html = '';
+    //     let html = '';
 
-        data.forEach(image => {
-            html += `
-                <li>
-                    <a target="_blank" href="${image.post_url}">View Image</a>
-                    ${image.author} 
-                </li>
-            `;
-        });
-        document.getElementById('fetch').innerHTML = html;
-    } else {
-        // alert("Request could not be processed at the moment");
-        const errorModal =  document.getElementById('errorModalBtn');
-        errorModal.click();
-    }
+    //     data.forEach(image => {
+    //         html += `
+    //             <li>
+    //                 <a target="_blank" href="${image.post_url}">View Image</a>
+    //                 ${image.author} 
+    //             </li>
+    //         `;
+    //     });
+    //     document.getElementById('fetch').innerHTML = html;
+    // } else {
+    //     // alert("Request could not be processed at the moment");
+    //     const errorModal =  document.getElementById('errorModalBtn');
+    //     errorModal.click();
+    // }
 }
 
 // loadAPI()
